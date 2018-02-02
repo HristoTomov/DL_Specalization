@@ -6,7 +6,7 @@ Which notation would you use to denote the 3rd layer’s activations when the in
 a[8]{7}(3)
 
 a[3]{8}(7)
-正确
+Correct
 
 a[8]{3}(7)
 
@@ -16,7 +16,7 @@ a[3]{7}(8)
 Which of these statements about mini-batch gradient descent do you agree with?
 
 One iteration of mini-batch gradient descent (computing on a single mini-batch) is faster than one iteration of batch gradient descent.
-正确
+Correct
 
 You should implement mini-batch gradient descent without an explicit for-loop over different mini-batches, so that the algorithm processes all mini-batches at the same time (vectorization).
 
@@ -26,23 +26,22 @@ Training one epoch (one pass through the training set) using mini-batch gradient
 Why is the best mini-batch size usually not 1 and not m, but instead something in-between?
 
 If the mini-batch size is m, you end up with batch gradient descent, which has to process the whole training set before making progress.
-正确
+Correct
 
 If the mini-batch size is m, you end up with stochastic gradient descent, which is usually slower than mini-batch gradient descent.
-未选择的是正确的
+Not selected is correct
 
 If the mini-batch size is 1, you lose the benefits of vectorization across examples in the mini-batch.
-正确
+Correct
 
 If the mini-batch size is 1, you end up having to process the entire training set before making any progress.
 
 ### 4
 uppose your learning algorithm’s cost J, plotted as a function of the number of iterations, looks like this:
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/KIycr3grEeeJIwrF5BVsIg_f1c324824bd9220c7ee985cce1521404_cost.png?expiry=1511654400000&hmac=xFeGPHVDFe8oKNRaJjXtkJPe6HS6AHYTYqI2svNA3S4)
 
 Which of the following do you agree with?
 If you’re using mini-batch gradient descent, this looks acceptable. But if you’re using batch gradient descent, something is wrong.
-正确
+Correct
 
 If you’re using mini-batch gradient descent, something is wrong. But if you’re using batch gradient descent, this looks acceptable.
 
@@ -64,7 +63,7 @@ v2=10, vcorrected2=10
 v2=7.5, vcorrected2=7.5
 
 v2=7.5, vcorrected2=10
-正确
+Correct
 
 v2=10, vcorrected2=7.5
 
@@ -77,7 +76,7 @@ Which of these is NOT a good learning rate decay scheme? Here, t is the epoch nu
 α=11+2∗tα0
 
 α=etα0
-正确
+Correct
 
 α=0.95tα0
 
@@ -86,18 +85,18 @@ You use an exponentially weighted average on the London temperature dataset. You
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/W0boqHgrEee6mw7xN92yoA_3a1f4052dc56969b5d7da4024a46836d_temp.png?expiry=1511654400000&hmac=iGGPhQclGN4CJx5fW1YBHyGMI-iL6BXLxaysti8jv0I)
 
 Decreasing β will shift the red line slightly to the right.
-未选择的是正确的
+Not selected is correct
 
 Increasing β will shift the red line slightly to the right.
-正确
+Correct
 True, remember that the red line corresponds to β=0.9. In lecture we had a green line $$\beta = 0.98) that is slightly shifted to the right.
 
 Decreasing β will create more oscillation within the red line.
-正确
+Correct
 True, remember that the red line corresponds to β=0.9. In lecture we had a yellow line $$\beta = 0.98 that had a lot of oscillations.
 
 Increasing β will create more oscillations within the red line.
-未选择的是正确的
+Not selected is correct
 
 ###8
 Consider this figure:
@@ -107,7 +106,7 @@ These plots were generated with gradient descent; with gradient descent with mom
 These plots were generated with gradient descent; with gradient descent with momentum (β = 0.5) and gradient descent with momentum (β = 0.9). Which curve corresponds to which algorithm?
 
 (1) is gradient descent. (2) is gradient descent with momentum (large β) . (3) is gradient descent with momentum (small β)
-这个选项的答案不正确
+这个选项的答案不Correct
 
 (1) is gradient descent. (2) is gradient descent with momentum (small β). (3) is gradient descent with momentum (large β)
 
@@ -120,26 +119,26 @@ These plots were generated with gradient descent; with gradient descent with mom
 Suppose batch gradient descent in a deep network is taking excessively long to find a value of the parameters that achieves a small value for the cost function (W[1],b[1],...,W[L],b[L]). Which of the following techniques could help find parameter values that attain a small value for? (Check all that apply)
 
 Try tuning the learning rate α
-正确
+Correct
 
 Try initializing all the weights to zero
-未选择的是正确的
+Not selected is correct
 
 Try better random initialization for the weights
-正确
+Correct
 
 Try mini-batch gradient descent
-正确
+Correct
 
 Try using Adam
-正确
+Correct
 
 ### 10
 
 Which of the following statements about Adam is False?
 
 Adam should be used with batch gradient computations, not with mini-batches.
-正确
+Correct
 
 The learning rate hyperparameter α in Adam usually needs to be tuned.
 

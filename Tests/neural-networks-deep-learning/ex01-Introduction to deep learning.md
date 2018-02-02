@@ -1,87 +1,66 @@
-## Introduction to deep learning
+## Week 1 Quiz - Introduction to deep learning
 
-### 1
-> What does the analogy “AI is the new electricity” refer to?
+1. What does the analogy “AI is the new electricity” refer to?
 
-AI is powering personal devices in our homes and offices, similar to electricity.
+    - [ ] AI is powering personal devices in our homes and offices, similar to electricity.
+    - [ ] Through the “smart grid”, AI is delivering a new wave of electricity.
+    - [ ] AI runs on computers and is thus powered by electricity, but it is letting computers do things not possible before.
+    - [x] Similar to electricity starting about 100 years ago, AI is transforming multiple industries.
+    
+    Note: Andrew illustrated the same idea in the lecture.
 
-AI runs on computers and is thus powered by electricity, but it is letting computers do things not possible before.
+2. Which of these are reasons for Deep Learning recently taking off? (Check the two options that apply.)
 
-<b>Similar to electricity starting about 100 years ago, AI is transforming multiple industries.</b>
+    - [x] We have access to a lot more computational power.
+    - [ ] Neural Networks are a brand new field.
+    - [x] We have access to a lot more data.
+    - [ ] Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.
+    
+3. Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
 
-Through the “smart grid”, AI is delivering a new wave of electricity.
+    - [x] Being able to try out ideas quickly allows deep learning engineers to iterate more quickly.
+    - [x] Faster computation can help speed up how long a team takes to iterate to a good idea. 
+    - [ ] It is faster to train on a big dataset than a small dataset.
+    - [x] Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware).
 
-### 2
-> Which of these are reasons for Deep Learning recently taking off? (Check the three options that apply.)
+    Note: A bigger dataset generally requires more time to train on a same model.
 
-<b>Deep learning has resulted in significant improvements in important applications such as online advertising, speech recognition, and image recognition.</b>
+4. When an experienced deep learning engineer works on a new problem, they can usually use insight from previous problems to train a good model on the first try, without needing to iterate multiple times through different models. True/False?
 
-<b>We have access to a lot more computational power.</b>
+    - [ ] True
+    - [x] False
+    
+    Note: Maybe some experience may help, but nobody can always find the best model or hyperparameters without iterations. 
 
-Neural Networks are a brand new field.
+5. Which one of these plots represents a ReLU activation function?
 
-<b>We have access to a lot more data.</b>
+    - Check [here](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)).
+    
+6. Images for cat recognition is an example of “structured” data, because it is represented as a structured array in a computer. True/False?
+    
+    - [ ] True
+    - [x] False
+    
+7. A demographic dataset with statistics on different cities' population, GDP per capita, economic growth is an example of “unstructured” data because it contains data coming from different sources. True/False?
+    
+    - [ ] True
+    - [x] False
+    
+8. Why is an RNN (Recurrent Neural Network) used for machine translation, say translating English to French? (Check all that apply.)
 
-### 3
-> Recall this diagram of iterating over different ML ideas. Which of the statements below are true? (Check all that apply.)
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/FalVl3ygEeegaQ4NYTdESg_7a0184575b8bdc47f8c3f29601302cb8_Screen-Shot-2017-08-08-at-6.13.59-PM.png?expiry=1510963200000&hmac=TBA614D7x47zatWp67eIIpa9kVUxHPKblbA2sLU_fKE)
+    - [x] It can be trained as a supervised learning problem.
+    - [ ] It is strictly more powerful than a Convolutional Neural Network (CNN).
+    - [x] It is applicable when the input/output is a sequence (e.g., a sequence of words).
+    - [ ] RNNs represent the recurrent process of Idea->Code->Experiment->Idea->....
+    
+9. In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
 
-<b>Being able to try out ideas quickly allows deep learning engineers to iterate more quickly.</b>
+    - x-axis is the amount of data
+    - y-axis (vertical axis) is the performance of the algorithm.
 
-<b>Faster computation can help speed up how long a team takes to iterate to a good idea.</b>
+10. Assuming the trends described in the previous question's figure are accurate (and hoping you got the axis labels right), which of the following are true? (Check all that apply.)
 
-It is faster to train on a big dataset than a small dataset.
-
-<b>Recent progress in deep learning algorithms has allowed us to train good models faster (even without changing the CPU/GPU hardware).</b>
-
-### 4
-> When an experienced deep learning engineer works on a new problem, they can usually use insight from previous problems to train a good model on the first try, without needing to iterate multiple times through different models. True/False?
-
-False
-
-### 5
-> Which one of these plots represents a ReLU activation function?
-
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/sBkbVnGkEee1BBJ2zgI9PA_2e3410579d847b4df4c2cf2691d63d3e_figure3.png?expiry=1510963200000&hmac=VCAIR8btUa_FiJxGrX6HsYOntn1LPHppX2KJolI98rE)
-
-### 6
-> Images for cat recognition is an example of “structured” data, because it is represented as a structured array in a computer. True/False?
-
-False
-
-### 7
-> A demographic dataset with statistics on different cities' population, GDP per capita, economic growth is an example of “unstructured” data because it contains data coming from different sources. True/False?
-
-False
-
-### 8
-> Why is an RNN (Recurrent Neural Network) used for machine translation, say translating English to French? (Check all that apply.)
-
-
-<b>It can be trained as a supervised learning problem.</b>
-
-It is strictly more powerful than a Convolutional Neural Network (CNN).
-
-<b>It is applicable when the input/output is a sequence (e.g., a sequence of words).</b>
-
-RNNs represent the recurrent process of Idea->Code->Experiment->Idea->....
-
-### 9
-> In this diagram which we hand-drew in lecture, what do the horizontal axis (x-axis) and vertical axis (y-axis) represent?
-
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/JP--G3ooEeeJIwrF5BVsIg_b60d752c05bec0881d8ca08cfc2646d2_Screen-Shot-2017-08-05-at-2.30.09-PM.png?expiry=1510963200000&hmac=uErqtScSTY_8SoPw3_sUWvjo9PO7-sIiMhSmwVz_Fvg)
-
-x-axis is the amount of data
-y-axis (vertical axis) is the performance of the algorithm.
-
-### 10
-> Assuming the trends described in the previous question's figure are accurate (and hoping you got the axis labels right), which of the following are true? (Check all that apply.)
-
-<b>Increasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.</b>
-
-Decreasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
-
-<b>Increasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.</b>
-
-Decreasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
-
+    - [x] Increasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
+    - [x] Increasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
+    - [ ] Decreasing the training set size generally does not hurt an algorithm’s performance, and it may help significantly.
+    - [ ] Decreasing the size of a neural network generally does not hurt an algorithm’s performance, and it may help significantly.
